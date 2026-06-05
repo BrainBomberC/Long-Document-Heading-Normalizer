@@ -1,0 +1,16 @@
+# ============================================================
+# 项目: Markdown 标题标准化 (KG-RAG Study / project2)
+# ============================================================
+# Python ≥ 3.8 (需要海象运算符 :=)
+#
+# 核心脚本 (local_batch_convert*.py, tools.py) 零第三方依赖，
+# 全部使用 Python 标准库: hashlib, json, os, re, sys, time,
+# urllib, pathlib, argparse, dataclasses, typing, ipaddress
+#
+# 唯一外部依赖: API 端点 (通过环境变量 LLM_API_KEY / API_KEY 配置)
+#   - 默认 BASE_URL: http://192.168.3.131:8000/v1/chat/completions
+#   - 默认 MODEL: Qwen3-30b
+#   - 可通过环境变量 LLM_BASE_URL / LLM_MODEL 覆盖
+
+# ---- Jupyter Notebook (仅 test2.ipynb 调试用) ----
+ipykernel>=7.2.0
