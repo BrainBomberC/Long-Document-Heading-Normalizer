@@ -10,7 +10,7 @@
   <img src="https://img.shields.io/badge/LLM-Qwen3--30B-orange?style=flat-square" alt="LLM Qwen3-30B" />
 </p>
 
-This project primarily solves common heading errors that occur after converting MinerU, PDF, EPUB, or OCR outputs into Markdown: table-of-contents entries, advertisements, code blocks, OCR text from images, headers, footers, and other noise may be incorrectly marked as `#` headings, while real body headings may have incorrect levels, missing parent headings, or OCR-induced line breaks.
+This project primarily solves common heading errors that occur after converting PDF into Markdown by Mineru: table-of-contents entries, advertisements, code blocks, OCR text from images, headers, footers, and other noise may be incorrectly marked as `#` headings, while real body headings may have incorrect levels, missing parent headings, or OCR-induced line breaks.
 
 ## ✨ I. Project Overview
 
